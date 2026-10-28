@@ -2,7 +2,7 @@
 
 一個以虛構製造企業為背景的文件治理案例：新版本進入受控流程後，先檢查來源與權限，再產生可追溯的差異摘要，交由負責人審核，批准後才發布。
 
-> **專案狀態：設計與合成案例驗證。** Claude Free 已安裝並啟用自訂 Skill，並執行三項真實問答測試；本專案未連接實際 SharePoint 或企業資料，也沒有宣稱工作流已部署。
+> **專案狀態：設計與合成案例驗證。** Claude Free 已安裝並啟用自訂 Skill，並執行三項原始問答與一次聚焦 T2 重測；本專案未連接實際 SharePoint 或企業資料，也沒有宣稱工作流已部署。
 
 ## 案例概要
 
@@ -29,7 +29,7 @@ flowchart LR
 - [Claude Skill 授權審查修正版](skill/workflow-automation-agent-access-review/SKILL.md)：補上來源分類、跨團隊授權、最小權限及安全替代流程。
 - [實際 Claude Free 驗證](docs/validation.md)：三案結果、可查證的 Skill 讀取活動與限制。
 - [合成測試案例](examples/test-cases.md)：正向設計、跨客戶越權及資料不足。
-- [證據](evidence/)：遮去帳戶及側欄的畫面，以及合成問答的介面文字紀錄。
+- [證據](evidence/)：一張遮去帳戶及側欄的 Skill 畫面，以及合成問答文字紀錄。
 
 ## 驗證結果
 
