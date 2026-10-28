@@ -19,7 +19,7 @@ T2 的安全拒絕是成立的；FAIL 是依案例要求的完整性判斷，不
 
 T3 的 Claude 活動明細顯示讀取 `workflow-automation-agent/SKILL.md`，可見於[活動截圖](../evidence/skill-read.jpg)。Skill 在清單中的啟用狀態記錄於[介面觀察](../evidence/installation-observation.md)。T1、T2 個別的執行時載入狀態未取得獨立明細，因此標為 UNVERIFIED。
 
-修正版 `workflow-automation-agent-access-review` 在 Claude Free 顯示啟用。T2 新對話的活動明細顯示「讀取使用者指定的 Skill 說明」並有 `SKILL.md` 項目；使用者提示指定修正版名稱。[本機證據截圖](../evidence/access_review_skill_enabled_20261028.png)及[回答截圖](../evidence/T2_access_review_response_20261028.png)保留在隔離測試資料夾，未公開帳戶介面截圖。
+修正版 `workflow-automation-agent-access-review` 在 Claude Free 顯示啟用。T2 新對話的活動明細顯示「讀取使用者指定的 Skill 說明」並有 `SKILL.md` 項目；使用者提示指定修正版名稱。Claude UI 截圖與完整 accessibility capture 保留在本機隔離測試資料夾；公開倉庫只提供[去識別的文字重測紀錄](../evidence/t2-access-review-response.md)，不公開帳戶介面截圖。
 
 三案的[介面文字紀錄](../evidence/)保留了合成提示與 Claude 回答。T1、T3 介面顯示 Sonnet 5.5；T2 原版基線介面提示切換至 Sonnet 5，修正版 T2 重測顯示 Sonnet 5.5。修正版提示也補上自包含案例背景，因此這是一次符合預期的實測觀察，不能單獨證明 Skill 修正造成改善，也不是模型或版本的受控比較。
 
